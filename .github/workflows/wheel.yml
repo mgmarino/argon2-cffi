@@ -19,7 +19,7 @@ jobs:
         - name: pp37-pypy37_pp73
           image: pypywheels/manylinux2010-pypy_x86_64
         - name: cp35-cp35m-arm64
-          image: quay.io/pypa/manylinux1_aarch64
+          image: quay.io/pypa/manylinux2014_aarch64
 
     steps:
     - run: |
